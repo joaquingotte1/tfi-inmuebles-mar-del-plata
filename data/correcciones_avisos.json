@@ -1,0 +1,35 @@
+[
+  {
+    "id_aviso": "019f97a3-f081-74bd-8b29-59dc7dc8bc50",
+    "accion": "excluir",
+    "motivo": "El Malecón, DAD: ofrece varias unidades de 71 a 156 m² sin identificar la superficie correspondiente al precio. Los 51 m² del dataset eran imputados.",
+    "fuente": "Descripción guardada en mitula_venta_mar_del_plata_SC.xlsx, hoja Propiedades",
+    "fecha_revision": "2026-09-10"
+  },
+  {
+    "id_aviso": "01998995-ced3-75dc-ad5d-3285ea7f0698",
+    "accion": "corregir_ubicacion",
+    "barrio": "Centro",
+    "direccion": "Catamarca 2147, Mar del Plata",
+    "latitud": -38.0003909,
+    "longitud": -57.5552131,
+    "precision": "Punto publicado para la dirección",
+    "motivo": "El aviso indica Plaza Mitre, no La Herradura. La dirección corresponde al polígono Área Centro usado en este trabajo.",
+    "fuente": "https://www.waze.com/live-map/directions/ar/provincia-de-buenos-aires/mar-del-plata/centro?to=place.ChIJRxt3RqjehJURbapdniNvVZM",
+    "fuente_contraste": "https://www.santellanpropiedades.com/ad/venta-departamento-2-ambientes-edificio-le-temps",
+    "fecha_revision": "2026-09-10"
+  },
+  {
+    "id_aviso": "019fdc3b-04b3-712e-bd2d-37ff45a4c5e2",
+    "accion": "corregir_ubicacion",
+    "barrio": "Varese",
+    "direccion": "Rivas al 2400, Mar del Plata",
+    "latitud": -38.0153376,
+    "longitud": -57.5328081,
+    "precision": "Aproximada a la cuadra; no es la posición exacta de la unidad",
+    "motivo": "La ficha ZAP5951251 de Zamboni coincide en descripción, precio y superficie. Indica Varese y Rivas al 2400, pero su mapa también es incorrecto. Se usa como referencia el punto publicado para esa cuadra en otra ficha; las distancias resultantes son aproximadas.",
+    "fuente": "https://www.zambonipropiedades.com.ar/p/5951251-Departamento-en-Venta-en-Varese-Rivas-al-2400",
+    "fuente_coordenadas": "https://www.buscadorprop.com.ar/propiedad/711751-venta-piso-3-ambientes-con-cochera-playa-varese",
+    "fecha_revision": "2026-09-10"
+  }
+]

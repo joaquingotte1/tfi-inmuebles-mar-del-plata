@@ -1,0 +1,31 @@
+# Entornos y dependencias locales
+.venv/
+**/.venv*/
+**/node_modules/
+__pycache__/
+*.py[cod]
+
+# Archivos temporales y cachés
+.artifact_runtime/
+.ruff_cache/
+.pytest_cache/
+**/.ipynb_checkpoints/
+~$*
+*.tmp
+*.log
+
+# Sesiones del navegador y credenciales
+data/.mitula_edge_profile/
+**/*edge_profile*/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.codex/
+.agents/
+
+# Archivos del sistema
+Thumbs.db
+Desktop.ini
+.DS_Store
