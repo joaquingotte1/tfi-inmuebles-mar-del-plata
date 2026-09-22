@@ -1,0 +1,14 @@
+{
+  "modelo_seleccionado": "Extreme Gradient Boosting",
+  "modelo_id": "13",
+  "modelos_comparados": 15,
+  "entrenamiento": 2020,
+  "prueba": 506,
+  "semilla": 42,
+  "pliegues": 5,
+  "python": "3.11.9",
+  "pycaret": "3.3.2",
+  "sklearn": "1.4.2",
+  "pandas": "2.1.4",
+  "numpy": "1.26.4"
+}
