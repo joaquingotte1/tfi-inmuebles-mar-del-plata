@@ -1,6 +1,6 @@
 # Comparación complementaria con PyCaret
 
-El apartado 3.9 de `01_EDA.ipynb` ejecuta PyCaret en un entorno separado. PyCaret 3.3.2 usa versiones de pandas y scikit-learn diferentes de las del análisis principal.
+El apartado 3.8 de `01_EDA.ipynb` ejecuta PyCaret en un entorno separado. PyCaret 3.3.2 usa versiones de pandas y scikit-learn diferentes de las del análisis principal.
 
 Desde la raíz del proyecto, en Windows:
 
@@ -11,7 +11,7 @@ DATA_MODELING/.venv_pycaret/Scripts/python.exe -m pip install -r DATA_MODELING/r
 
 En Linux o macOS, crear el entorno con Python 3.11 y usar `DATA_MODELING/.venv_pycaret/bin/python` para instalar las dependencias.
 
-Ejecutar el notebook en orden. El apartado 3.9 exporta `X_train`, `X_test`, `y_train` y `y_test` sin imputar a `.artifact_runtime/pycaret/` y llama a `pycaret_complementario.py`. El script conserva los índices y comprueba que la separación no cambie.
+Ejecutar el notebook en orden. El apartado 3.8 exporta `X_train`, `X_test`, `y_train` y `y_test` sin imputar a `.artifact_runtime/pycaret/` y llama a `pycaret_complementario.py`. El script conserva los índices y comprueba que la separación no cambie.
 
 PyCaret compara 15 algoritmos con configuraciones predeterminadas, cinco pliegues aleatorios con semilla 42 y selección por MAE. Aplica imputación, codificación y estandarización en su propio pipeline; se fuerza One Hot Encoding también para barrio. No se transforma el precio ni se emplean precio por m² o valorización como predictores. Esta comparación complementa el ajuste de hiperparámetros del apartado 3.5.
 
