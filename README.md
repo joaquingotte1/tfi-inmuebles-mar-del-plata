@@ -1,6 +1,6 @@
 # Scraping de Mitula — Mar del Plata
 
-Extrae exclusivamente casas, departamentos y chalets en venta publicados en Mitula para Mar del Plata y guarda el DataFrame directamente en Excel. El EDA se realizará posteriormente en otro archivo.
+Extrae exclusivamente casas, departamentos y chalets en venta publicados en Mitula para Mar del Plata y guarda el DataFrame directamente en Excel. El análisis exploratorio y el modelado se desarrollan en DATA_MODELING/01_EDA.ipynb.
 
 ## Instalación
 
@@ -59,3 +59,7 @@ Cada XLSX contiene las hojas `Propiedades`, `Ejecucion` y `Cobertura`. Durante e
 El programa usa pausas moderadas y no intenta eludir verificaciones ni controles del sitio.
 
 Las variables de presencia usan tres estados: `Sí` cuando la publicación afirma que la característica existe, `No` cuando la niega explícitamente y celda vacía cuando no aporta información. La ausencia de una mención no se interpreta como `No`.
+
+## Trabajo Final Integrador y anexos
+
+El documento final en Word y PDF, junto con los enlaces al notebook, las bases y los reportes, se encuentra en el [índice de anexos](ANEXOS.md).
